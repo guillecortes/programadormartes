@@ -1,0 +1,28 @@
+p{
+    color:blue;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+}
+h2{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+h1{
+    color: green;
+    font-style: italic;
+    text-align: center;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    box-shadow: 17px 13px 2px 0px rgba(0,0,0,0.75);
+}
+
+.destacados{
+    color: red;
+    font-style: italic;
+}
