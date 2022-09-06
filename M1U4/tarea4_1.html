@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea uni 4 ejerc 1</title>
+</head>
+<body>
+    <script>
+        const distancia = prompt('ingrese distancia', '');
+
+        if (parseInt(distancia) <= 1000) {
+            var transport = 'pie';          
+        } else if (parseInt(distancia) > 1000 && parseInt(distancia) <= 10000){
+            var transport = 'bicicleta';
+        } else if (parseInt(distancia) > 10000 && parseInt(distancia) <= 30000){
+            var transport = 'colectivo';
+        } else if (parseInt(distancia) > 30000 && parseInt(distancia) <= 100000){
+            var transport = 'auto';
+        }else {
+            var transport = 'avion'
+        }
+
+        
+
+
+        console.log(`distancia ingresada ${distancia}`)
+        console.log(`el medio de transporte apropiado es ${transport}`)
+    </script>
+    
+</body>
+</html>
