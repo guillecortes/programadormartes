@@ -1,0 +1,21 @@
+.fondo{
+    display: flex;    
+}
+
+.boton_rojo {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+.boton_verde {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+
+.boton_azul {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
